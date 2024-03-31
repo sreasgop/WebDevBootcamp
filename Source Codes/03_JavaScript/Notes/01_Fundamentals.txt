@@ -1,0 +1,48 @@
+# What is JavaScript?
+
+Javascript is the language that powers the web. JavaScript is a high level interpreted programming language used for creating interactive and dynamic websites.
+JavaScript was created by Brendan Eich in 1995 for Netscape 2 in under 10 days.initially named Mocha, then LiveScript, and finally JavaScript.
+In 1996 Netscape 2 was released with JavaScript 1.0.
+Microsoft reverse engineered LiveScript created by Brenden Eich and created their own version of it called JScript.
+
+JavaScript is a high-level, interpreted programming language that is widely used for building dynamic and interactive web applications. It was developed by Brendan Eich in 1995 and has since become one of the most popular programming languages in use today.
+
+JavaScript is executed by web browsers, which means that it runs on the client-side of web applications. It is primarily used to enhance the user experience by adding interactivity to web pages and enabling real-time communication between the user and the application.
+
+JavaScript is an object-oriented language, which means that it uses objects to represent data and functionality. It also supports functional programming paradigms, allowing developers to write code in a more declarative style.
+
+One of the key features of JavaScript is its event-driven programming model. This means that JavaScript code responds to events that occur in the web browser, such as mouse clicks or page loads. Developers can use JavaScript to attach event handlers to these events, allowing them to execute code when a specific event occurs.
+
+JavaScript is also known for its support for asynchronous programming, which allows developers to write code that can execute multiple tasks simultaneously. This is particularly useful for web applications that need to handle multiple requests and interactions at the same time.
+
+In addition to being used for client-side programming, JavaScript can also be used for server-side programming through platforms like Node.js. This allows developers to build full-stack web applications using a single language.
+
+Overall, JavaScript is a versatile and powerful programming language that is essential for modern web development. Its widespread adoption and active community ensure that it will continue to play a vital role in the development of web applications for years to come.
+
+In 1996, Netscape and Brendan Eich took JavaScript to the ECMA international standards organization, and a technical committee (TC39) was created to further develop the language. ECMA-262 Edition 1 was released in June 1997.
+
+
+# What is ECMA International?
+ECMA(European Computer Manufacturer Association) International is a standards organization for Information and Communication systems. 
+
+
+# What is ECMAScript?
+ECMAScript is a JavaScript standard developed by Ecma International. ECMAScript is a JavaScript standard intended to ensure the compatibility of web pages across different browsers. It is standardized by Ecma International in the document ECMA-262. JavaScript became an ECMA standard in 1997. ECMAScript is based on several originating technologies, the most well-known being JavaScript (Netscape) and JScript (Microsoft). The language was invented by Brendan Eich at Netscape and first appeared in that company's Navigator 2.0 browser. It has appeared in all subsequent browsers from Netscape and in all browsers from Microsoft starting with Internet Explorer 3.0.
+
+ECMAScript 2022 Language is the latest version. It is the thirteenth edition of the ECMAScript Language Specification. 
+
+
+# What is ECMA-262 or ECMAScript Language Specification?
+ECMA-262, or the ECMAScript Language Specification, defines the ECMAScript Language. ECMA-262 specifies only language syntax and the semantics of the core API, such as Array, Function, and globalThis, while valid implementations of JavaScript add their own functionality such as input-output and file-system handling. The development of the ECMAScript Language Specification started in November 1996. The first edition of this Ecma Standard was adopted by the Ecma General Assembly of June 1997.
+
+
+# How to execute Javascript?
+The main ways to execute Javascript are mentioned below:
+
+1. Embedded JavaScript: JavaScript can be added directly to HTML documents using the <script> tag. This allows developers to add JavaScript code to a webpage and have it executed when the page is loaded or when specific events occur.
+
+2. External JavaScript files: JavaScript code can also be stored in external files with a .js extension. These files can be included in HTML documents using the Ssrc="" attribute of the <script> tag, similar to embedded JavaScript.
+
+3. Browser Console: Most web browsers come with a console that allows developers to execute JavaScript code directly in the browser. This is a useful way to test code and debug issues.
+
+4. Server-side JavaScript: JavaScript can also be executed on the server-side using platforms like Node.js. This allows developers to write server-side code in JavaScript and handle requests and responses without the need for additional technologies like PHP or Ruby.

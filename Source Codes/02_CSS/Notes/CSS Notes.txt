@@ -1,0 +1,16 @@
+# Introduction to CSS
+
+### What is CSS?
+
+Cascading Style Sheets is the language we use to style and HTML Document. It describes how HTML elements should be displayed.
+
+### An Interesting Anecdote from the PAST:
+
+[Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) is the founder of Mosaic, he later founded Netscape and now the very famous venture capital firm Andreesen Horowitz. He once wrote in an email to someone that there is no way to format their HTML documents the way they would do it in MS Word.
+
+### What is the [History of CSS](https://www.w3.org/Style/CSS20/history.html)?
+
+Håkon Wium Lie proposed the 
+In 1996 a new recommendation was proposed by the W3C which was led by [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) who is known as the father of CSS. This recommendation allowed the programmers to attach style such as font colors and spacing to HTML documents. And this breakthrough allowed the developers to separate the styling from the content. It allowed the developers to have modularity.
+
+The W3C consortium responded by releasing a new version of HTML, HTML 3.2 and this came out in 1997 which allowed new html tags such as the <font> that allowed the developers to define the font size, the color and the font face. However all the major updates that came up in HTML 3.2 is now deprecated, because it turned out to be a nightmare for the developers to work with HTML. As HTML was never intended to contain tags for formatting a web page. HTML was created to describe the content of a web page. The structure and the content of the websites really get cluttered and working with HTML used to be troublesome by using HTML 3.2 formatting elements.

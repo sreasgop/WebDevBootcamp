@@ -1,0 +1,55 @@
+# What are comments? 
+Comments are lines within a program or a script which are ignored by the interpreter or compiler.
+
+
+
+# What are comments used for? 
+Every Programming langauge comes with the feature of having comments. Comments makes code easier for different developers to understand. It gets easier a developer or program to understand code written by other programmers. Comments can also be used for debugging purposes. Comment out lines of code helps us to debug code by figuring out buggy lines. 
+
+
+
+# How to write single line comments in Javascript?
+In Javascript the syntax to write a single line comment is to use double forwardslash like this "//". 
+
+// This is a single line comment in Javascript.
+
+
+
+# How to write multi line comments in Javascript?
+In Javascript the sntax to write a multiline comment is to enclosed the lines of comments within "/*" and "*/".
+
+/* This 
+is 
+a 
+multiline 
+comment */
+
+
+# JavaScript code is inserted in HTML document using the Script Tag.
+
+# Variables:  A variable is a named storage location in memory that holds a value that we can refer to and use when required.
+There are 4 ways to declare a Javascript Variable:
+1. Using var:
+ The var keyword has been part of JavaScript since its inception.
+ Variables defined with var are not block-scoped, and have function scope or global scope.
+ Variables defined with var can be reassigned within their scope, and can also be redeclared within the same scope.
+ var declarations are hoisted to the top of their scope, meaning that the variable is accessible throughout the entire function or global scope, regardless of where it is declared.
+
+2. Using let: 
+ The let keyword was introduced in ES6 (2015).
+ Variables defined with let can not be redeclared.
+ Variables defined with let must be declared before use.
+ Variables defined with let have block scope.
+
+3. Using const:
+ The const keyword was introduced in ES6 (2015).
+ Variables defined with const cannot be Redeclared.
+ Variables defined with const cannot be Reassigned.
+ Variables defined with const have Block Scope.
+
+4. Using nothing: We can also create a variable in javascript without declaring it and directly initializing a value to it. This is known as an implicit declaration or an undeclared variable.
+
+
+# Data Types in Javascript: Javascript has 8 data types. They are:
+1. String: Strings are sequence of characters enclosed in quotes. Javascript accepts both single and double quotes.
+"Hello World!"
