@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of HTML</title>
+</head>
+<body>
+    <center> <h1>Basics of HTML</h1> </center>
+    <br>
+    <h2>What is HTML?</h2>
+    <p>HTML stands for Hypertext Markup Language. </p>
+    <ul>
+        <li>  Hypertext refers to the way web pages are organized, with text that can be linked to other pages or resources. This allows users to navigate between related pages on the web by clicking on hyperlinks. </li>
+        <li> Markup Language refers to the way HTML documents are formatted using tags and attributes that define the structure and content of the page. HTML tags are used to specify different types of content, such as headings, paragraphs, images, links, and tables, while attributes provide additional information about the tags, such as the source of an image or the target of a hyperlink.</li>
+    </ul>   
+    <p> Together, Hypertext and Markup Language form the basis of HTML, which is the standard language used to create web pages. HTML provides a set of rules and conventions that enable developers to create web pages that can be displayed consistently across different devices and platforms. HTML documents are interpreted by web browsers, which render the content of the page on the user's screen, allowing them to interact with the page and access the resources and information it contains.</p>
+    <br>
+    <br>
+    
+    <h2>History of HTML</h2>
+    <p>The history of HTML begins in the late 1980s, when a researcher at the European Organization for Nuclear Research (CERN) named Tim Berners-Lee began working on a project to create a way for scientists to share and collaborate on research documents over the Internet. Berners-Lee recognized the need for a way to mark up text with formatting instructions so that it could be displayed consistently across different computer systems.
+        <br>
+        In 1989, Berners-Lee proposed a system for creating hypertext documents called "WorldWideWeb" (later renamed to "Nexus"). This system used a markup language called "HTML" to define the structure and content of web pages, and a web browser called "WorldWideWeb" to display them.
+        <br>
+        The first version of HTML, HTML 1.0, was released in 1993, and included basic tags for formatting text and creating links. Over the next few years, new versions of HTML were released, including HTML 2.0 in 1995 and HTML 3.2 in 1997, which added new features like tables, forms, and image maps.
+        <br>
+        In 1999, the World Wide Web Consortium (W3C) released HTML 4.01, which included new features like frames, style sheets, and scripting. HTML 4.01 was the last major version of HTML to be released before the development of XHTML, a reformulation of HTML as an XML application, which was released in 2000.
+        <br>
+        In 2014, the W3C released the first draft of HTML5, a major revision of HTML that introduced new semantic tags, multimedia support, and improved accessibility features. HTML5 has since become the de facto standard for web development, and is widely used to create modern, interactive, and responsive web pages.</p>
+    <br>
+    <br>
+    <hr>
+    <h2>What is an HTML element?</h2>
+    <p>HTML (Hypertext Markup Language) elements are the building blocks of web pages. An HTML element is defined by a start tag, some content, and an end tag. The content between the start and end tags is what is displayed on the web page.</p>
+    <br>
+    <br>
+    <h2>What is an HTML attribute?</h2>
+    <p>HTML elements can also have attributes that provide additional information about the element, such as the ID, class, and style. An HTML attribute is a property or characteristic that is used to modify the behavior or appearance of an HTML element. Attributes are added to the opening tag of an HTML element, and they are written as key-value pairs, with the attribute name followed by an equals sign (=) and the attribute value surrounded by quotes (" "). HTML attributes can be used to accomplish a variety of tasks, such as:
+        <ul>
+            <li> All HTML elements can have attributes</li>
+            <li>Attributes provide additional information about elements</li>
+            <li>Attributes are always specified in the start tag</li>
+            <li>Attributes usually come in name/value pairs like: name="value"</li>
+            <li>Specifying the source of an image or other media file (using the "src" attribute)</li>
+            <li>Creating hyperlinks to other pages or resources (using the "href" attribute)</li>
+            <li>Defining the type of an input field in a form (using the "type" attribute)</li>
+            <li>Assigning a unique ID to an element for JavaScript manipulation (using the "id" attribute)</li>
+            <li>Adding descriptive text to an image for accessibility purposes (using the "alt" attribute)</li>
+        </ul>
+    </p>
+    <br>
+    <br>
+    <h2>What is the difference between HTML elements and HTML tags?</h2>
+    <p>The terms "HTML element" and "HTML tag" are often used interchangeably, but they refer to slightly different things in HTML:</p>
+    <ul>
+        <li>HTML element: An HTML element refers to a complete element, including both the opening tag, content, and the closing tag (if applicable), as well as any attributes or properties that apply to the element. Examples of HTML elements include &ltp&gt, &ltdiv&gt, and &ltimg&gt.</li>
+        <li>HTML tag: An HTML tag refers specifically to the markup code used to define an element. A tag is a snippet of code surrounded by angle brackets (< and >), and it can include attributes that modify the behavior or appearance of the element. Examples of HTML tags &ltp&gt, &ltdiv&gt, and &ltimg&gt.</li>
+    </ul>
+    <p>In essence, an HTML tag is a part of an HTML element that defines the element's purpose and behavior, while an HTML element is the complete package, including the tag, content, and attributes.
+
+    It's worth noting that the terms "HTML element" and "HTML tag" are often used interchangeably in casual conversation, and in many cases, the distinction between the two isn't important. However, understanding the difference between the two can help you write and debug HTML code more effectively.</p>
+    <br>
+    <br>
+    <h2>Types of HTML tags:</h2>
+    <p>In HTML, tags can be classified into two main types: container tags and empty tags.</p>
+    <ol>
+        <li>Container tags: These tags are also called "paired tags" or "start and end tags", as they require both an opening tag and a closing tag to define a block of content. Container tags are used to group content together, and the content between the opening and closing tags is affected by the tag's attributes and any CSS styles applied to it. Examples of container tags include &ltdiv&gt, &ltp&gt, &ltul&gt, &lttable&gt, and &ltform&gt.</li>
+        <li>Empty tags: These tags are also called "void tags" or "self-closing tags", as they do not require a closing tag and are used to insert elements or content that do not have any content or do not require a container. Empty tags typically have attributes that define their behavior, such as the source of an image or the type of an input field. Examples of empty tags include &ltimg&gt, &ltbr&gt, &ltinput&gt, and &lthr&gt.</li>
+    </ol>
+    <p>It's important to note that some elements, such as &ltmeta&gt and &ltlink&gt, can be both empty and container tags depending on the context and the presence of attributes. Additionally, some elements, such as &ltbutton&gt and &lttextarea&gt, are container tags but do not require a closing tag in HTML5.</p>
+    <br>
+    <br>
+    <hr>
+    <h2>HTML Boilerplate</h2>
+    <ul>
+        <img src="\Images\HTML boilerplate.png" alt="Image of html boilerplate generated by emmet.">
+        <H3>HTML Boilerplate explanation</H3>
+        <!-- HOW TO DISPLAY HTML TAG AS PLAIN TEXT IN A HTML DOCUMENT? -->
+        <!-- NOTE: In order to display a html tag in the browser just the way it has been done below we can use &lt or &60 in the place of < tag and &gt or &62 in the place of > symbol. -->
+        <li> All html documents start with this code: &lt!DOCTYPE html&gt The following line tells the browser that it is a html document. </li>
+        <li> &lthtml lang="en"&gt marks the beginning of the root element of the html document. All the other html elements is going to go within this root html element. The lang attribute of the root element defines the language of the content of the website. This is not very important for the users who can see the website, it is more important for the users who can't. It helps various screen readers and other assistant technologies that will look at this language attribute so that when they read the website they can pronounce the word correctly. </li>
+        <li> The head of the website is defined by the &lthead&gt tag. This is an area where important information about the website is placed that is not displayed to the user. This is the opening tag for the head section of the document. The head section contains meta information about the document, such as the title, character encoding, and other metadata. 
+            <ul> 
+                <li>&ltmeta charset="UTF-8"&gt It ensures that the characters that we are going to use in our website is displayed correctly.</li>
+                <li>&ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt is used to set the compatibility mode for Internet Explorer. It instructs Internet Explorer to use the latest rendering engine available, rather than using an older version or compatibility mode. This is important because different versions of Internet Explorer can have different rendering engines, and using the latest one ensures that the website will display correctly.</li>
+                <li>&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt is used to set the viewport of the website. The viewport is the visible area of the web page on a device's screen. By setting the width to device-width, the website will be scaled to fit the screen width of the device it is being viewed on. The initial-scale=1.0 sets the initial zoom level of the website to 100%, meaning it will display at its natural size on the device's screen. This helps ensure that the website is displayed optimally on a wide range of devices, from desktop computers to smartphones and tablets.</li>
+                <li>&lttitle&gt  tag in HTML is used to specify the title of a web page. It is placed inside the &lthead&gt section of an HTML document, and the content inside the tag is displayed in the browser's title bar. The title tag is also used by search engines to identify the content of the page.</li>
+            </ul>
+        </li>
+        <li> &ltbody&gt tag is the opening tag for the body section of the document. The body section contains the actual content of the web page, such as text, images, and other media.</li>
+    </ul>
+    <br>
+    <br>
+    <h2>HTML heading Tags:</h2>
+    <p>These tags are used to define important headings throughout the html documents. There are 6 HTML heading tags among which &lth1&gt is used to define the most important heading and the &lth6&gt is used to define the least important heading in a html document. All the HTML heading tags in hierarchical order are given below: </p>
+    <ol>
+        <li>&lth1&gt</li>   <h1>This is heading one.</h1>
+        <li>&lth2&gt</li>   <h2>This is heading two.</h2>
+        <li>&lth3&gt</li>   <h3>This is heading three.</h3>
+        <li>&lth4&gt</li>   <h4>This is heading four.</h4>
+        <li>&lth5&gt</li>   <h5>This is heading five.</h5>
+        <li>&lth6&gt</li>   <h6>This is heading six.</h6>
+    </ol>
+    <br>
+    <br>
+    <h2>HTML Lists:</h2>
+    <p>There are three types of lists in HTML, ordered lists, unordered list and description list.</p>
+</body>
+</html>
