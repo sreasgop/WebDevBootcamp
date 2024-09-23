@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Links</title>
+</head>
+
+<body>
+
+    <h1 align="Center"> HTML Links </h1>
+
+    <!-- 
+    HTML links are hyperlinks which means that we can click on a link and jump to another document. A like doesn't have to be text, a link can be an image, or any other HTML element.
+    When we move the mouse over a link, the mouse arrow will turn in a little hand. The html <a> tag defines a hyperlink, anything within the <a> tag becomes a clickable hyperlink. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+    
+    Few Facts about a hyperlink: 
+    1. An unvisted link is underlined and blue.
+    2. A visited link is underlinked and purble.
+    3. An active link is underlined and red. (Holding on while clicking on a link will display red)
+    4. By default the linked page will be displayed in the current browser tab, to change this we must specify it using the target attribute for the link.
+        The target attribute specifies where to open the linked document.
+        i. _self (Default): Opens the linked page in the current tab.
+        ii. _blank: Opens the linked page in a new tab or window.
+        iii. _parent: Opens the linked page in the parent frame. (Needs to have iframe in the website to function)
+        iv. _top: Opens the document in the full body of the windows (Needs to have iframe in the website to function)
+        NOTE: In case iframe is missing both _parent and _top will behave just like _self only.
+    -->
+    <h4>Few Important Links:</h4>
+    <a href="01index.html" class="links">Practice HTML</a>
+    <br>
+    <a href="https://www.w3schools.com" target="_blank" class="links">Visit W3Schools.com</a>
+    <br>
+    <a href="https://github.com/sreasgop" target="_parent" class="links">Visit My GitHub Page</a>
+    <br>
+    <a href="https://mrfactaid.blogspot.com" target="_top" class="links">Visit MrFactAid.com</a>
+
+    <br>
+    <br>
+
+    <h4>Using 'mailto:' within href</h4>
+    <a href="mailto:chandrasreasgop@gmail.com" class="links">Drop me an email!</a>
+
+    <br>
+    <br>
+
+    <h4> Using an img as a link</h4>
+    <a href="http://github.com/chandrasreasgop" class="gitlogo">
+        <img src="github.png" alt="GitHub Logo" height="50" >
+    </a>
+
+    <br>
+    <br>
+
+    <h4> Using a button as a link:</h4>
+    <button onclick="document.location='https://github.com/sreasgop'" class="links">My GitHub</button>
+
+    <br>
+    <br>
+
+    <h4>Using links to create bookmarks: </h4>
+    <h5 id="C1">Chapter 1</h5>
+    <p>
+    HTML is the foundational language used to create and structure content on the web. It provides the structure of web pages by defining elements such as headings, paragraphs, links, images, and other multimedia. HTML uses tags enclosed in angle brackets to mark up different parts of the content, allowing web browsers to render text, images, and other elements properly. Each HTML element can have attributes, such as id, class, or href, which provide additional information about the element. While HTML controls the layout of a page, it is limited in terms of styling and interactivity, which is where CSS and JavaScript come into play. Modern HTML, often referred to as HTML5, also includes support for multimedia elements like audio and video, as well as features such as canvas for graphics and semantic tags like and that enhance the meaning and accessibility of web content.</p>
+    <br>
+
+    <h5 id="C2">Chapter 2</h5>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis aliquid animi nam dolores tempora blanditiis numquam amet officiis velit. Ab ipsum nihil eaque esse saepe consectetur quibusdam! Odio expedita quaerat nihil aliquam eligendi accusamus deserunt odit, fugiat omnis quas eaque! Iste neque, corporis facere repellat dolor amet saepe eius rerum repudiandae iusto recusandae dignissimos voluptas ea facilis veritatis, id delectus ipsam veniam, atque dolorum iure deleniti quam molestiae quia. Velit voluptatum quod itaque eaque voluptate non minus molestias nesciunt. Maiores quibusdam architecto adipisci esse aperiam, aut illum vel! Blanditiis iusto, quia asperiores facere enim corporis, in expedita quae, est reprehenderit ducimus error modi nulla recusandae cupiditate exercitationem labore nesciunt inventore esse cum. Nam non necessitatibus dolores veritatis blanditiis natus ut mollitia omnis? Dolore esse dicta sequi iusto velit harum quis voluptas. Excepturi laborum suscipit voluptate fuga? Cum tenetur corporis cumque, voluptatem, quia laboriosam dolorum mollitia soluta id magnam excepturi sed at ab earum quod laborum? Consequuntur aliquid pariatur nobis accusantium obcaecati, cupiditate beatae natus doloremque veritatis! Est ipsa eos aliquid quidem esse tempora doloribus sed placeat architecto quos, quasi officiis consectetur reiciendis? Adipisci distinctio optio numquam mollitia ipsa? Eaque aperiam distinctio eius impedit asperiores corporis ab dolore, quod debitis. Molestias.</p>
+
+    <br>
+
+    <h5 id="C3">Chapter 3</h5>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, consectetur? Modi ad molestias hic velit quaerat nemo commodi iure explicabo! Vel vero nulla excepturi placeat! Veritatis rem, libero sunt doloremque repudiandae consectetur vitae? Earum accusantium corporis facere nemo cumque totam quasi eius, amet, nisi et maxime ea dolor labore assumenda vel explicabo sit nobis atque, cupiditate tempore rem ratione. Totam maiores doloremque pariatur molestiae maxime impedit esse aperiam libero culpa, temporibus dolore minima quia illo natus excepturi quam iste incidunt! Eligendi nostrum optio odio nobis quod voluptatem tempora dolore veniam sequi eius, culpa enim labore consectetur unde voluptatibus, praesentium voluptates vitae sapiente. Veritatis tenetur quis at velit omnis. Totam deserunt aperiam est, ratione omnis itaque facere? Modi vero delectus officia ex beatae nemo sequi natus optio ipsam dolorem blanditiis maxime facere, exercitationem repellat libero illum iste quod, vel maiores? Similique eos fuga inventore ducimus, tempore blanditiis ex, nostrum qui debitis repellat cumque dolorem dolor reiciendis accusamus? Dolor sit eum dignissimos voluptate? Exercitationem perferendis illum voluptates laboriosam aut quisquam illo voluptatum repellat qui quod! Maiores voluptate debitis vel magni autem? Tempore harum minima eligendi odio molestias enim possimus, id aspernatur tenetur dolore qui nulla dolorem accusantium assumenda, rerum quae libero in?</p>
+
+    <br>
+
+    <h5 id="C4">Chapter 4</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repellendus, officiis dolore odio natus voluptatibus debitis quibusdam aliquid molestias beatae, modi autem ex adipisci vel animi quae veniam nemo doloremque nisi aut? Nulla ipsam similique quis temporibus et adipisci expedita, ipsum dolorum hic rerum perspiciatis voluptate. Autem consequuntur magnam itaque vitae rerum dolores voluptates illo deserunt id maxime corporis, accusantium animi pariatur voluptate nulla! Delectus unde facere quos labore! Ducimus neque dolores sint fugiat ratione obcaecati distinctio, porro qui laborum explicabo minus totam repudiandae voluptas a deserunt recusandae saepe architecto inventore doloribus dicta. Laudantium porro optio unde maxime ut! Eligendi ratione vero neque sed quod, illum architecto officia vitae aliquid pariatur temporibus atque fugit corporis rem molestias in est delectus voluptatem sapiente blanditiis, nesciunt commodi minima ipsa ipsum. Exercitationem rem quasi fugit repudiandae ipsam eaque dolore quae nesciunt accusamus temporibus, minus provident quaerat perferendis. Eveniet doloremque necessitatibus reiciendis illum sint veniam obcaecati dolorem illo iure dolores esse aliquid pariatur nobis, aut est at nihil blanditiis impedit dicta totam, voluptatem repellendus dolor deserunt architecto? Autem quidem repellendus explicabo magni odio rerum sed, eveniet soluta consequatur obcaecati vitae, eligendi veritatis provident modi similique sint necessitatibus pariatur cumque doloribus, laboriosam minima! Molestias, mollitia!</p>
+
+    <br>
+
+    <h5 id="C5">Chapter 5</h5>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sapiente sint dignissimos minima quaerat sed doloribus atque ipsam vitae quidem perferendis numquam delectus accusamus, nisi quisquam. Doloremque beatae rem architecto, consequatur sint illum impedit laudantium! Eligendi eaque laboriosam, ea voluptates expedita suscipit odit assumenda optio id, nisi ratione provident minus corrupti, ex dolor eum quae perferendis? Ducimus fugit autem dignissimos illo voluptatum enim quae eaque at voluptatibus consequatur, deleniti laboriosam impedit officia magni libero repellat aperiam. Vero labore pariatur officiis laboriosam, totam eligendi sunt ab, distinctio voluptatem aliquid perspiciatis ipsum earum vel illo? Quaerat tenetur unde vel et necessitatibus quibusdam impedit consequuntur aliquam ut expedita eos explicabo obcaecati optio praesentium iste vero, recusandae a delectus sint nihil, rem dolores mollitia. Doloremque molestias possimus placeat praesentium qui nostrum perspiciatis et quis vero optio, quo eius iste repellat sunt, fuga, consequuntur odit illum alias voluptate sequi similique veniam. Adipisci illum, facilis alias vel enim possimus est expedita provident, molestias impedit quasi asperiores ab laboriosam officiis deleniti ipsam in dolorem dolores reiciendis eius laudantium temporibus nihil. Voluptatum, aspernatur sed porro vel distinctio magnam! Eum quis quia repellendus, adipisci, inventore quas necessitatibus alias sunt officiis ea voluptas aut soluta fugit dolor velit voluptatum animi?</p>
+
+    <br>
+
+    <h5 id="C6">Chapter 6</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores molestias voluptate sed, deleniti dolore in magni praesentium recusandae sunt ipsam esse ut vitae temporibus ducimus illo. Ea a dolorem inventore quidem! Repudiandae deserunt esse similique itaque, corrupti debitis cumque. Exercitationem cupiditate quia quisquam mollitia ratione dignissimos numquam aliquid, blanditiis facilis quo ipsam alias fugiat suscipit, pariatur nam consequatur officiis! Rem aperiam temporibus totam sint molestiae fugit dignissimos consectetur dolorum perferendis nam, consequatur odio tempora distinctio repellat culpa perspiciatis ducimus fugiat obcaecati ratione? Labore est, vel molestias architecto, laudantium sed quae atque necessitatibus voluptatem, expedita animi porro libero fugiat quos perferendis possimus. Debitis laudantium fuga mollitia architecto asperiores doloremque ab fugit nesciunt itaque, soluta temporibus facere animi esse sequi perferendis consequuntur molestias inventore similique pariatur? Repellat adipisci dolor nisi, doloremque commodi quidem sunt at necessitatibus incidunt quia recusandae deserunt atque repellendus nihil minima? Eum quas, laudantium quos recusandae velit dolores odit, voluptas iusto repudiandae libero tempora omnis quia dolor ea? Similique aut omnis earum repudiandae inventore nesciunt mollitia tempore autem eaque, deserunt quia quibusdam pariatur praesentium officiis exercitationem minima porro dolore? Inventore quaerat vitae quasi eligendi sint alias aliquid corporis rem! Atque ratione consequatur consectetur dolores laborum unde, tempora voluptatibus eligendi.</p>
+
+    <p>The details about html is mentioned in <a href="02link.html#C1">Chapter 1</a> and lorem ipsum is mentioned in the following chapters: <a href="02link.html#C2">Chapter 2</a>, <a href="02link.html#C3">Chapter 3</a>, etc. </p>
+
+</body>
+
+</html>
